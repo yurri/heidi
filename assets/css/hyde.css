@@ -70,6 +70,19 @@ html {
   }
 }
 
+.sidebar-license {
+	width: 80px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (min-width: 48rem) {
+	.sidebar-license {
+		margin-left: 0px;
+		margin-right: auto;
+	}
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
@@ -247,4 +260,120 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.hint {
+	border-bottom: dashed 1px #CCCCCC;
+	cursor: help;
+}
+
+div#disqus_thread {
+	margin-top: 20px;
+}
+
+/* borrowed from willsong */
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon-selection/icomoon.eot");
+  src: url("../fonts/icomoon-selection/icomoon.eot?#iefix") format('embedded-opentype'), url("../fonts/icomoon-selection/icomoon.ttf") format('truetype'), url("../fonts/icomoon-selection/icomoon.woff") format('woff'), url("../fonts/icomoon-selection/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.article-details {
+  font-size: 0.8em;
+  margin-bottom: 40px;
+}
+
+.article-list-details {
+	
+}
+
+.date {
+	margin-right: 20px;
+}
+
+.share-post {
+  border-top: 1px solid #bebebe;
+  color: #505050;
+  margin: 70px 0;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+}
+.share-link {
+  color: #959595;
+  margin: 0 5px;
+  font-size: 1.4em;
+}
+.share-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-feed:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e602";
+}
+.icon-google-plus:before {
+  content: "\e603";
+}
+.icon-vimeo2:before {
+  content: "\e604";
+}
+.icon-linkedin:before {
+  content: "\e605";
+}
+.icon-flickr:before {
+  content: "\e606";
+}
+.icon-github:before {
+  content: "\e607";
+}
+.icon-wordpress:before {
+  content: "\e608";
+}
+.icon-pinterest:before {
+  content: "\e609";
+}
+.icon-instagram:before {
+  content: "\e60a";
+}
+.icon-soundcloud:before {
+  content: "\e60b";
+}
+.icon-tumblr:before {
+  content: "\e60c";
+}
+.icon-blogger:before {
+  content: "\e60d";
+}
+.icon-youtube:before {
+  content: "\e60e";
+}
+.icon-tag:before {
+  content: "\e60f";
+}
+.icon-clock:before {
+  content: "\e610";
+}
+.icon-user:before {
+  content: "\e611";
 }

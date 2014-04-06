@@ -9,7 +9,10 @@
       </a>
     </h1>
 
-    <span class="post-date">{{date format='YYYY-MM-DD'}}</span>
+	<div class="article-list-details">
+		<span class="icon-clock"> </span> <time class="date hint" datetime="{{date format='dddd DD MMM YYYY'}}" title="{{date format='DD MMM YYYY'}}">{{date timeago="true"}}</time>
+		{{#if tags}}<span class="icon-tag"> </span>{{tags separator=", "}}{{/if}}
+	</div>
 
     {{content}}
   </div>
